@@ -1,5 +1,5 @@
 [workspace]
 members = [
     "dec1", "dec2", "dec3", "dec4", "dec5",
-    "dec6", "dec7", "dec8"
+    "dec6", "dec7", "dec8", "dec9", "dec10"
 ]

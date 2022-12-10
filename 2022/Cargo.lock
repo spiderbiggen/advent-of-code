@@ -17,6 +17,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "dec10"
+version = "0.1.0"
+
+[[package]]
 name = "dec2"
 version = "0.1.0"
 dependencies = [
@@ -48,6 +52,10 @@ version = "0.1.0"
 
 [[package]]
 name = "dec8"
+version = "0.1.0"
+
+[[package]]
+name = "dec9"
 version = "0.1.0"
 
 [[package]]
