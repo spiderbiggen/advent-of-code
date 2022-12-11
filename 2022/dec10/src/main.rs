@@ -7,12 +7,12 @@ const INPUT_EXAMPLE: &str = include_str!("../input_example");
 fn main() {
     let result = algo1_part1(INPUT_EXAMPLE);
     println!("Example1: {result}");
-    //    let result = algo1_part2(INPUT_EXAMPLE);
+    algo1_part2(INPUT_EXAMPLE);
     //    println!("Example2: {result}");
     let result = algo1_part1(INPUT);
     println!("Part1: {result}");
-    let result = algo1_part2(INPUT);
-//    println!("Part2: {result}");
+    algo1_part2(INPUT);
+    //    println!("Part2: {result}");
 }
 
 #[derive(Debug, PartialEq, Eq)]
@@ -93,7 +93,7 @@ fn algo1_part2(input: &'static str) {
     }
     for y in 0..HEIGHT {
         for x in 0..WIDTH {
-            print!("{}", if display[y * WIDTH + x] {'#'}else {'.'});
+            print!("{}", if display[y * WIDTH + x] { '#' } else { '.' });
         }
         println!();
     }
@@ -108,7 +108,6 @@ mod tests {
     fn test_solution1_part1() {
         assert_eq!(1736, algo1_part1(INPUT));
     }
-
 
     #[bench]
     fn bench_solution_part1(b: &mut Bencher) {

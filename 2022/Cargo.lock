@@ -21,6 +21,10 @@ name = "dec10"
 version = "0.1.0"
 
 [[package]]
+name = "dec11"
+version = "0.1.0"
+
+[[package]]
 name = "dec2"
 version = "0.1.0"
 dependencies = [

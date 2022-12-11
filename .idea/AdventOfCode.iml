@@ -11,6 +11,8 @@
       <sourceFolder url="file://$MODULE_DIR$/2022/dec7/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2022/dec8/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2022/dec9/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2022/dec10/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2022/dec11/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/2022/target" />
       <excludeFolder url="file://$MODULE_DIR$/2022/dec1/target" />
     </content>
