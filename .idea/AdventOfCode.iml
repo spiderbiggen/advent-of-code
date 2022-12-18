@@ -13,6 +13,8 @@
       <sourceFolder url="file://$MODULE_DIR$/2022/dec9/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2022/dec10/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2022/dec11/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2022/dec12/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2022/dec13/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/2022/target" />
       <excludeFolder url="file://$MODULE_DIR$/2022/dec1/target" />
     </content>
