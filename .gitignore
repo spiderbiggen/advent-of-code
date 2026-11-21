@@ -1,0 +1,14 @@
+# Puzzle inputs and example inputs are not committed (Advent of Code asks that they not be shared)
+input
+input_*
+puzzle_input*
+**/input
+**/input_*
+**/puzzle_input*
+
+# Build output and IDE files
+target/
+out/
+.idea/
+.fleet/
+*.iml

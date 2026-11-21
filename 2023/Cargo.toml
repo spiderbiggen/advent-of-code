@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = [
+    "day-*"
+]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+dead_code = "allow"
+
+[workspace.lints.clippy]
+all = "deny"
+pedantic = "warn"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
